@@ -1,6 +1,8 @@
-public class Hello{
-	public static void main(String args[])
+public class Web extends HttpServlet{
+	public void init()
+	{}
+	protected void doGet(HttpServletRequest request, HttpServletResponce responce)thorws IOException, ServletException
 	{
-		System.out.println("Hello Wold");
-		}
+		
+	
 }
